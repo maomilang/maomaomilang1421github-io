@@ -143,6 +143,8 @@
     .card:nth-child(6)  { animation-delay: 0.30s; }
     .card:nth-child(7)  { animation-delay: 0.35s; }
     .card:nth-child(8)  { animation-delay: 0.40s; }
+    .card:nth-child(9)  { animation-delay: 0.45s; }
+    .card:nth-child(10) { animation-delay: 0.50s; }
 
     /* Shimmer line on top */
     .card::before {
@@ -235,7 +237,7 @@
       font-size: 12px;
       color: var(--text-muted);
       letter-spacing: 2px;
-      animation: fadeUp 0.6s 0.5s ease both;
+      animation: fadeUp 0.6s 0.6s ease both;
     }
 
     /* Animations */
@@ -260,13 +262,29 @@
 <body>
   <div class="container">
     <header class="header">
-      <p class="header-label">猫咪浪 · 歷屆考題</p>
+      <p class="header-label">貓咪狼 · 歷屆考題</p>
       <h1 class="header-title">題庫導覽</h1>
-      <p class="header-sub">第 14 屆 — 第 21 屆</p>
+      <p class="header-sub">第 12 屆 — 第 21 屆</p>
       <div class="divider"></div>
     </header>
 
     <main class="grid">
+
+      <a class="card" href="https://maomilang.github.io/maomilang12.gitub.io/" target="_blank" rel="noopener">
+        <span class="card-num">12</span>
+        <span class="card-label">第十二屆</span>
+        <span class="card-arrow">
+          <svg viewBox="0 0 24 24"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="5 5 19 5 19 19"/></svg>
+        </span>
+      </a>
+
+      <a class="card" href="https://maomilang.github.io/maomilang13.gitub.io/" target="_blank" rel="noopener">
+        <span class="card-num">13</span>
+        <span class="card-label">第十三屆</span>
+        <span class="card-arrow">
+          <svg viewBox="0 0 24 24"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="5 5 19 5 19 19"/></svg>
+        </span>
+      </a>
 
       <a class="card" href="https://maomilang.github.io/maomaomilang14.github-io/" target="_blank" rel="noopener">
         <span class="card-num">14</span>
